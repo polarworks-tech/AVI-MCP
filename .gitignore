@@ -19,6 +19,9 @@ docs/DEVELOPMENT_LOG.md
 # ローカル環境依存の設定(.mcp.json.exampleをコピーして作成する)
 .mcp.json
 
+# 配布物の作成先(scripts/package-release.ps1の出力)
+dist/
+
 # 一時ファイル・テスト成果物
 *.png
 *.mp4

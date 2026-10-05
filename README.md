@@ -35,6 +35,18 @@ AviUtl2 本体
 - Windows 11 x64(開発・動作確認環境。Windows 10での動作は未確認)
 - AviUtl2 **v2.1.11a**(動作確認バージョン。比較的新しいSDKのAPIを使用しているため、古いバージョンでは動作しない場合があります)
 
+## ビルド済み版を使う場合
+
+[Releases](https://github.com/polarworks-tech/AVI-MCP/releases) から `AVI-MCP-v*-win64.zip` をダウンロードし、同梱の `README.txt` の手順に従ってください(Node.js 20以上が必要です)。
+
+zipにはSHA256ハッシュを併記しています。ダウンロード後に、値が一致することを確認してください(ファイル名は取得したものに合わせます)。
+
+```powershell
+Get-FileHash .\AVI-MCP-v0.1.0-win64.zip -Algorithm SHA256
+```
+
+> バイナリには署名がなく、Windowsの警告が表示される場合があります。出所に不安がある場合は、次の手順でソースからビルドできます。
+
 ## セットアップ(ソースからビルド)
 
 ### 前提

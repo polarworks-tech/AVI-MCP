@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aviutl2": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "cwd": "<ABSOLUTE_PATH_TO_THIS_REPOSITORY>/mcp-server"
+    }
+  }
+}

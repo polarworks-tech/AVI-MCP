@@ -1,0 +1,30 @@
+# ビルド成果物
+bridge-plugin/build/
+*.aux2
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Node.js
+node_modules/
+
+# AviUtl2 Plugin SDK(非公式ミラー, MIT License)。README記載の手順でcloneして使用する。本リポジトリには含めない
+sdk_mirror/
+
+# 開発経緯の記録(非公開)
+docs/DEVELOPMENT_LOG.md
+
+# ローカル環境依存の設定(.mcp.json.exampleをコピーして作成する)
+.mcp.json
+
+# 一時ファイル・テスト成果物
+*.png
+*.mp4
+*.aup2
+debug.log
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "aviutl2-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server that bridges to the AviUtl2 bridge plugin over TCP",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "aviutl2-mcp-server": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
+  }
+}
